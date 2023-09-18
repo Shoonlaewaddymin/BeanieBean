@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
+
+:root{ 
+--heading-font-family: 'Abhaya Libre', serif;
+--body-para-font-family: 'Caladea', serif;
+--header-footer-bg-color:#99A98F;
+--home-body-color:#EEE3CB;
+--menu-body-color:#DBDFAA;
+--btn-bg-color:#FFC6AC;
+--main-color:#000;
+--badge-bg-color:#FFC95F;
+--cart-body-color:#FFC95F;
+--cart-bg-color:#FFF9C9;
+
+
+}
+
+.body1{ 
+  background-color: red;
+}
+
+h1{ 
+  font-family: var(--heading-font-family);
+}
+
+p{ 
+  font-family: var(--body-para-font-family);
+}
+
+.navbar{ 
+ background-color: var(--header-footer-bg-color);
+}
+
+footer{
+  background-color: var(--header-footer-bg-color);
+}
+
+#home-body{ 
+  background-color:var(--home-body-color);
+}
+
+
+#menu-body{ 
+  background-color: var(--menu-body-color);
+}
+
+#cart-body{ 
+  background-color:var(--cart-body-color) ;
+}
+
+.custom-btn{ 
+  background-color:var(--btn-bg-color);
+}
+
+.cart-btn{ 
+  background-color: #C4C1A4;
+}
+
+.carousel-sign{ 
+  color: var(--main-color);
+}
+
+.cart-container{ 
+  background-color: var(--cart-bg-color);
+}
+
