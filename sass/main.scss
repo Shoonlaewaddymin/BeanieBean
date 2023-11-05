@@ -5,9 +5,24 @@ $primary:#FFC95F;
 $light:#EEE3CB;
 $secondary:#99A98F;
 $warning:#DBDFAA;
+$info:#735F32;
+$card-height: 100%;
 
-
-
+$grid-breakpoints: (
+    xs: 0,
+    sm: 500px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+  );
 
 //import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+main .card{ 
+    transition: all 0.3s;
+}
+main .card:hover{ 
+    transform: scale(1.15);
+}
