@@ -2,11 +2,13 @@
 
 // custom variables 
 $primary:#FFC95F;
-$light:#EEE3CB;
-$secondary:#99A98F;
+$light:#D8E9A8;
+$secondary:#B3C890;
 $warning:#DBDFAA;
 $info:#735F32;
+$success:#F5F0BB;
 $card-height: 100%;
+
 
 $grid-breakpoints: (
     xs: 0,
@@ -26,3 +28,8 @@ main .card{
 main .card:hover{ 
     transform: scale(1.15);
 }
+
+
+
+
+
